@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="from.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <script type="text/javascript" src="form.js"></script>
+   </head>
+   <body>
+       <div class="w3-container w3-red">
+         <h3>JS Form</h3>
+      <nav>   
+       <ul>
+        <li><a href="index.html">HTML form</a></li>
+        <li><a href="phpForm.html">PHP form</a></li>
+        <li><a href="jsform.html"><b>JS form</b></a></li>
+      </ul> 
+      </div>
+   </nav>
+      <form class="w3-container" method="post" action="#">
+      
+       <input  type="text" class="w3-input" id="fname" name="firstname" placeholder="naam">
+       <label for="fname">voornaam</label>
+
+       <input type="text" class="w3-input" id="lname" name="lastname" placeholder="achternaam">
+       <label for="lname">achternaam</label>
+      
+       <input type="tel"  class="w3-input" name="number" placeholder="nummer"> 
+       <label for="number">telefoonnummer</label>
+
+       <input type="email" class="w3-input" name="mail" placeholder="email">
+       <label for="email">emaill</label>
+      
+       <input type="text" class="w3-input" name="postcode" placeholder="postcode">
+       <label for="postcode">postcode vb: 1234XX</label>
+
+       <input type="text" class="w3-input" name="place" placeholder="woonplaats">
+       <label for="place">Woonplaats</label><br>
+       <br>
+
+       <input type="text" class="w3-input" name="lorem" placeholder="lorem">
+       <label for="lorem"> lorem</label><br>
+       <br> 
+        
+       <input type="radio" class="w3-input" name="gender" value="man" > man
+       <input type="radio" class="w3-input" name="gender" value="vrouw"> vrouw 
+       <input type="radio" class="w3-input" name="gender" value="none" checked>niet opgeven<br>
+       <label for="gender">geslacht</label><br>
+
+       geboortedatum:<input type="date" name="bday" max="2020-12-31" placeholder="dd-mm-yy"><br>
+       
+
+       <input type="submit" class="w3-input" value="opslaan">
+      </form> 
+   </body>
+</html>
+

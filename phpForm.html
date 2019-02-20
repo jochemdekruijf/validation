@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="from.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   </head>
+   <body>
+       <div class="w3-container w3-blue">
+         <h3>PHP Form</h3>
+      <nav>   
+       <ul>
+        <li><a href="index.html">HTML form</a></li>
+        <li><a href="phpForm.html"><b>PHP form</b></a></li>
+        <li><a href="jsform.html">JS form</a></li>
+      </ul> 
+      </div>
+   </nav>
+      <form class="w3-container" action="/action_page.php">
+
+       <input required type="text" class="w3-input" id="fname" name="firstname" placeholder="naam">
+       <label for="fname">voornaam</label>
+
+       <input  required type="text" class="w3-input" id="lname" name="lastname" placeholder="achternaam">
+       <label for="lname">achternaam</label>
+      
+       <input required type="tel" class="w3-input" name="" placeholder="nummer"> 
+       <label for="number">telefoonnummer</label>
+
+      
+       <input required type="email" class="w3-input" name="" placeholder="email">
+       <label for="email">emaill</label>
+ 
+       <input  required type="text" class="w3-input" name="" placeholder="woonplaats">
+       <label for="place">Woonplaats</label><br>
+       <br> 
+
+        <input type="file" name="myFile"><br>
+        <label for="file"> voeg een bestand toe</label>
+        
+       <input type="radio" class="w3-input" name="gender" value="man" checked> man
+       <input type="radio" class="w3-input" name="gender" value="vrouw"checked> vrouw 
+       <input type="radio" class="w3-input" name="gender" value="none" checked>niet opgeven<br>
+       <label for="gender">geslacht</label><br>
+
+       geboortedatum:<input required type="date" name="bday" max="2020-12-31" placeholder="dd-mm-yy"><br>
+       
+
+      <input type="submit" class="w3-input" value="opslaan">
+      </form> 
+   </body>
+</html>
+

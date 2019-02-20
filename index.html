@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="from.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   </head>
+   <body>
+       <div class="w3-container w3-green">
+         <h3>HTML Form</h3>
+      <nav>   
+       <ul>
+        <li><a href="index.html"><b>HTML form</b></a></li>
+        <li><a href="phpForm.html">PHP form</a></li>
+        <li><a href="jsform.html"> JS form</a></li>
+      </ul> 
+      </div>
+   </nav>
+      <form class="w3-container" action="/action_page.php">
+
+       <input required type="text" pattern="[a-zA-Z]+" class="w3-input" id="fname" name="firstname" placeholder="naam">
+       <label for="fname">voornaam</label>
+
+       <input  required type="text" pattern="[a-zA-Z]+" class="w3-input" id="lname" name="lastname" placeholder="achternaam">
+       <label for="lname">achternaam</label>
+      
+       <input required type="tel" pattern="[0-9]{10}" class="w3-input" name="" placeholder="nummer"> 
+       <label for="number">telefoonnummer</label>
+
+       <input required type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  class="w3-input" name="" placeholder="email">
+       <label for="email">emaill</label>
+      
+       <input required  type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" class="w3-input" name="" placeholder="postcode">
+       <label for="postcode">postcode vb: 1234XX</label>
+
+       <input  required type="text" pattern="[A-Za-z]+" class="w3-input" name="" placeholder="woonplaats">
+       <label for="place">Woonplaats</label><br>
+       <br>
+
+       <input  required type="text" class="w3-input" name="" placeholder="woonplaats">
+       <label for="place">Woonplaats</label><br>
+       <br> 
+        
+       <input type="radio" class="w3-input" name="gender" value="man" > man
+       <input type="radio" class="w3-input" name="gender" value="vrouw"> vrouw 
+       <input type="radio" class="w3-input" name="gender" value="none" checked>niet opgeven<br>
+       <label for="gender">geslacht</label><br>
+
+       geboortedatum:<input type="date" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" name="bday" max="2020-12-31" placeholder="dd-mm-yy"><br>
+       
+
+       <input type="submit" class="w3-input" value="opslaan">
+      </form> 
+   </body>
+</html>
+
