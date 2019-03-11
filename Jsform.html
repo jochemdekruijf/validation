@@ -5,7 +5,6 @@
       <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="from.css">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-      <script type="text/javascript" src="form.js"></script>
    </head>
    <body>
        <div class="w3-container w3-red">
@@ -18,7 +17,7 @@
       </ul> 
       </div>
    </nav>
-      <form class="w3-container" method="post" action="#">
+      <form class="w3-container" method="post" name="jsForm" action="#">
       
        <input  type="text" class="w3-input" id="fname" name="firstname" placeholder="naam">
        <label for="fname">voornaam</label>
@@ -41,18 +40,12 @@
 
        <input type="text" class="w3-input" name="lorem" placeholder="lorem">
        <label for="lorem"> lorem</label><br>
-       <br> 
-        
-       <input type="radio" class="w3-input" name="gender" value="man" > man
-       <input type="radio" class="w3-input" name="gender" value="vrouw"> vrouw 
-       <input type="radio" class="w3-input" name="gender" value="none" checked>niet opgeven<br>
-       <label for="gender">geslacht</label><br>
-
-       geboortedatum:<input type="date" name="bday" max="2020-12-31" placeholder="dd-mm-yy"><br>
+       <br>   
        
-
-       <input type="submit" class="w3-input" value="opslaan">
+       <input type="submit" class="w3-input" onclick="validation()" value="opslaan">
       </form> 
+      <script type="text/javascript" src="form.js"></script>
    </body>
+
 </html>
 
